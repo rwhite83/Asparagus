@@ -1,0 +1,384 @@
+
+.backgroundimg {
+    z-index: -1;
+    position: relative;
+    background-image: url("../images/asp124.jpg");
+
+}
+
+.backgroundimg::after {
+
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: center center;
+    background-repeat: no-repeat;
+
+}
+
+a{
+    text-decoration: none;
+}
+/*signup.php   form*/
+
+.signup-form{
+    width: 400px;
+    margin:50px auto;
+    padding-top: 30px;
+    width: 300px;
+
+}
+
+.signup-form input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 12px;
+    border:none;
+    background-color:white;
+    font-family: arial;
+    font-size: 18px;
+    color: #111;
+    line-height: 40px;
+}
+
+.signup-form button{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 40px;
+    border:none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover{
+    background-color: rgb(4, 19, 31);
+    font-size: 19px;
+}
+/*stats.php*/
+.stats p{
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+
+
+/*tips.php*/
+.tips {
+    box-sizing: border-box;
+}
+.titleTip{
+    text-align:center;
+    margin-top:-12px;
+    margin-bottom:2px;
+}
+img {
+    vertical-align: middle;
+}
+#tipimg{
+    margin-top:10px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.rowimg:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+
+
+/* stats.php*/
+.stats{
+    margin: 50px auto;
+    width: 300px;
+}
+
+
+
+/* tips.php*/
+.tips{
+    margin: 50px auto;
+    width: 300px;
+}
+
+.tips{
+    margin: 50px auto;
+    width: 300px;
+}
+h1 {
+    color: #2c2c2c;
+    /*background-color: #d5d5d5;*/
+    letter-spacing: .05em;
+    text-shadow: 
+        4px 4px 0px #d5d5d5, 
+        7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.footer-text{
+    color: white;
+    font-size: 125%;
+    font-family: "georgia";
+    line-height: 150%;
+    text-shadow:
+        -1px -1px 2px #000,
+        1px -1px 2px #000,
+        -1px 1px 2px #000,
+        1px 1px 2px #000;
+}
+
+#headermsg{
+    color:white;
+    font-weight:bold;
+}
+/* signup.php*/
+
+/*aboutus.php*/
+
+
+ 
+header{
+    width: 100%;
+    height: auto;
+}
+ 
+.navbar{
+    background: #efefef;
+    position:block;
+    width: 100%;
+    box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);
+    -moz-box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);
+    z-index:1;
+    margin-top:-8px;
+    margin-left:-8px;
+    padding-right:16px;
+}
+ 
+ .logo-icon{
+    float: left;
+    padding:0px;
+    margin-top: -60px;
+    margin-left:-16px;
+    height: 100px;
+    width: 100px;
+}
+ 
+.dropdown{
+    float: right;
+    padding:18px;
+    height: 40px;
+    width: 40px;
+    
+}
+ 
+.hb-button{
+    float: right;
+    background: #222;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+ 
+.navbar a{
+    text-decoration: none;
+
+
+}
+ 
+.navbar ul{
+    overflow: hidden;
+    color: #fff;
+    margin: 2px;
+    padding: 0px;
+    text-align: center;
+    transition: max-height 0.5s;
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    -ms-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+}
+ 
+.navbar ul li{
+    float: right;
+    display: inline-block;
+    padding: 0px;
+     background: #ffffff;
+}
+ 
+li > a{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    padding-left:-1112px;
+     
+}
+
+li > a:hover{
+    color: #000;
+}
+ 
+li > a:before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+ 
+li > a:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+ 
+body{
+    font-family: sans-serif;
+    height: auto;
+
+}
+ 
+.img-wrapper{
+    width: 100%;
+}
+ 
+img{
+    margin-top: 60px;
+    width: 100%;
+}
+
+#titlestats{
+    text-align:center;
+    margin-top:-17px;
+}
+ 
+@media screen and (max-width: 768px){
+    .logo-section{
+        float: none;
+    }
+    .navbar ul{
+        background: #ffffff;
+        max-height: 0;
+        width: 100%;
+        padding-left:-2px;
+        padding-right:12px;
+    }
+    .navbar ul.show{
+        max-height: 21em;
+    }
+    .navbar ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 12px;
+
+    }
+    .hb-button{
+        display: inline;
+    }
+    .logo-icon{
+        float: left;
+        padding:0px;
+        margin-top: -60px;
+        margin-left:36%;
+        height: 100px;
+        width: 100px;
+    }
+}

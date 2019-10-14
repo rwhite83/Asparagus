@@ -1,0 +1,95 @@
+Changelog:
+
+-Jason-
+[21/05/18]:   
+            Deleted unnecessary </input> tag on line 31 of "index.php"
+            
+            Deleted tracker.css
+            
+            Moved javascript in "easteregg.php" to a new file: "easteregg.js" in the "js" directory
+            Linked "easteregg.js" in the script tage on line18 of "easteregg.php"
+            
+            Moved css and javascript from "aboutus.php" to external stylesheets and javascript files.
+            
+            Moved javascript in "stats.php" to a new file: "stats.js" in the "js" directory
+            Linked "stats.js" in the script tage on line27 of "stats.php"
+            
+            Deleted commented out code from "style.css"
+
+[22/05/18]
+            Deleted redundant <body></body> tags in "index.php"
+            Added background-image for <body> into css
+            
+            Deleted "header.css"
+            
+            Created new "header.css" and moved internal styling from "header.php" onto it
+            Linked the external stylesheet, "header.css" in a <link> tag in "header.php"
+            
+            Moved the javascript controlling the menu toggle in "header.php" to an external stylesheet
+            "menu_toggle.js" in the js directory.
+            
+            Deleted redundant <body> tag in "tracker.php"
+            
+            Deleted internal styling in "footer.php" and moved into "header.css"
+            
+            Deleted "add.php"; not being referenced.
+            Deleted "tracker_id.php"; not being referenced
+            
+            Moved facebook share code in "header.php"
+            Created "fb_connect.js" to hold facebook share code
+            
+            Deleted redundant <body> tag in aboutus.php
+            
+            Deleted redundant <body> tag in howToUse.php
+            
+            Deleted redundant CSS for "howToUse.php"
+            Created "howToUse.css" and linked in "header.php"
+            
+            Deleted redundant <body> tags in signup.php
+            Moved css <link> tag into header.php
+            
+            Deleted redundant php "GET message" code in signup.php
+            
+            Replaced "addNewFood.inc.php" and "newFoodToTracked.inc.php"
+            with new files from Mark
+            
+            Deleted unused sqli db connection from "addNewFood.inc.php"
+            
+            Moved "addNewFood.inc.php" to "includes" directory and repathed
+            Changed Path of "addNewFood.inc.php" in "tracker.php"
+            
+            Moved "newFoodToTracked.inc.php" to "includes" directory and repathed
+            Changed path of "newFoodToTracked.inc.php" in "tracker.php"
+            Removed redudant/unreferenced code in "newFoodToTracked.inc.php"
+            
+            Moved "foodData.inc.php" to "includes" directory and repathed.
+            Changed path of "foodData.inc.php" in ajax
+            
+            Removed foodData ajax from "tracker.php"
+            Created "ajax_foodData.js" in "js" directory
+            
+            Removed misplaced <link> element in "tracker.php"
+            Added <link> for "style.css" in "header.php"
+            
+            Added redirection to an error message in the case that user clicks button with no input
+            
+            Removed javascript from "tips.php" and linked to "js/tips.js"
+            Created "tips.js" in "js" directory
+            
+            Removed javascript from "index.php" and linked to "js/index.js"
+            Created "index.js" in "js" directory 
+            
+            Removed 2 misplaced <link> tags from "index.php" and moved it into "header.php"
+            
+-Ki-
+[22/05/18]:
+            Added user personalization in messages for "stats.js"
+            Changed "stats.inc.php"
+-John-
+[23/05/18]:
+            Spent half the day trying to fix nothing.
+            Deleted "main.css"; it was not being referenced.
+-Jason-
+[23/05/18]:
+            Deleted "Check Items" button in "tracker.php"
+            Deleted 2 <span> unused span tags in "tracker.php" 
